@@ -1,0 +1,48 @@
+@media screen and (min-width:1280px) {
+
+    .footer {
+        width: calc(100% - 96px);
+        margin: 0 auto;
+        margin-top: 92px;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: row;
+        outline: 1px solid red;
+        justify-content: flex-start;
+    }
+
+    .footer__link {
+        text-decoration: none;
+        color: white;
+        margin: 0;
+        padding: 0;
+        margin-right: 18px;
+
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        /* identical to box height, or 112% */
+
+
+        color: #FFFFFF;
+
+    }
+
+    .footer__copyright {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 114% */
+        margin: 0;
+        padding: 0;
+        color: #FFFFFF;
+        margin-left: auto;
+    }
+
+
+}

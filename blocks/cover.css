@@ -1,0 +1,75 @@
+@media screen and (min-width:1280px) {
+
+    .cover {
+        width: calc(100% - 96px);
+        max-width: 1280px;
+        margin: 0 auto;
+        margin-top: 92px;
+        /* outline: 1px solid red; */
+        position: relative;
+        height: 740px;
+    }
+
+    .cover__link {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+    .cover__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+        /* or 106% */
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto;
+        position: absolute;
+        top: 245px;
+        width: 560px;
+        left: 312px;
+        z-index: 1;
+    }
+
+    .cover__subtitle {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        /* or 122% */
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 360px;
+        position: absolute;
+        top: 429px;
+        left: 412px;
+        z-index: 1;
+    }
+
+
+    .cover__overlay {
+        outline: 1px solid red;
+        position: absolute;
+        top: 0;
+        width: 1184px;
+        height: 740px;
+        background: #2A2C2F;
+        opacity: 0.3;
+    }
+
+    .cover__overlay:hover {
+        opacity: 0.8;
+    }
+
+    .cover__background {
+        margin: 0;
+        /* object-fit: contain; */
+
+        width: 1184px;
+        height: 740px;
+    }
+}
