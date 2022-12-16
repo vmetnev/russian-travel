@@ -1,62 +1,209 @@
+/* ---------------------------------------------------------------- */
+/*  ALL  */
+/* ---------------------------------------------------------------- */
+
 .lead {
-    max-width: 984px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     outline: 1px solid red;
-
 }
 
-
 .lead__title {
-
-    max-width: 720px;
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
-    /* or 104% */
-    outline: 1px solid red;
-    margin: 0;
-    margin-top: 56px;
     color: #FFFFFF;
     text-align: center;
+    outline: 1px solid red;
 }
 
 .lead__subtitle {
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    /* or 120% */
     color: #FFFFFF;
-    max-width: 640px;
     text-align: center;
     outline: 1px solid red;
-    margin: 0;
-    margin-top: 32px;
 }
 
-.lead__image {
-    margin-top: 64px;
-    width: 100%;
-    height: auto;
-}
+.lead__image {}
 
 .lead__caption {
     align-self: flex-start;
     font-family: 'Inter';
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 8px;
+
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
-    /* identical to box height, or 140% */
-
     letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-top: 8px;
+}
+
+/* ---------------------------------------------------------------- */
+/*  1280 +  */
+/* ---------------------------------------------------------------- */
+
+@media all and (min-width:1280px) {
+
+    .lead {
+        max-width: 984px;
+    }
+
+    .lead__title {
+        max-width: 720px;
+        margin: 0;
+        margin-top: 56px;
+
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 100px;
+    }
+
+    .lead__subtitle {
+
+        margin: 0;
+        margin-top: 32px;
+
+        max-width: 640px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
+    .lead__image {
+        margin-top: 64px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ---------------------------------------------------------------- */
+/*  1024-1279  */
+/* ---------------------------------------------------------------- */
+
+@media all and (min-width:1024px) and (max-width:1279px) {
+
+    .lead {
+        max-width: 928px;
+    }
+
+    .lead__title {
+        max-width: 720px;
+        margin: 0;
+        margin-top: 48px;
+
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 100px;
+    }
+
+    .lead__subtitle {
+
+        margin: 0;
+        margin-top: 32px;
+
+        max-width: 640px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
+    .lead__image {
+        margin-top: 56px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ---------------------------------------------------------------- */
+/*  768-1023  */
+/* ---------------------------------------------------------------- */
+
+@media all and (min-width:768px) and (max-width:1023px) {
+
+    .lead {
+        max-width: 768px;
+    }
+
+    .lead__title {
+        max-width: 720px;
+        margin: 0;
+        margin-top: 48px;
+
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 100px;
+    }
+
+    .lead__subtitle {
+
+        margin: 0;
+        margin-top: 32px;
+
+        max-width: 640px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
+    .lead__image {
+        margin-top: 40px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ---------------------------------------------------------------- */
+/* - 320-767  */
+/* ---------------------------------------------------------------- */
+
+@media all and (max-width:767px) {
+
+    .lead {
+        max-width: 320px;
+    }
+
+    .lead__title {
+        max-width: 288px;
+        margin: 0;
+        margin-top: 48px;
+
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .lead__subtitle {
+
+        margin: 0;
+        margin-top: 16px;
+
+        max-width: 288px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .lead__image {
+        margin-top: 64px;
+        width: 100%;
+        height: auto;
+    }
 }

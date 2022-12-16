@@ -1,19 +1,14 @@
+/* ---------------------------------------------------------------- */
+/*  ALL  */
+/* ---------------------------------------------------------------- */
+
 .intro {
-    max-width: 690px;
     outline: 1px solid red;
-    margin-left: 148px;
-    margin-top: 92px;
-    margin-bottom: 92px;
 }
 
 
 .intro__title {
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-    /* identical to box height, or 107% */
     color: #FFFFFF;
     margin: 0;
     padding: 0;
@@ -25,23 +20,121 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-    /* or 26px */
     color: #FFFFFF;
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
 }
 
 .intro__list {
     margin: 0;
+    margin-top: 33px;
     padding: 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
     color: #FFFFFF;
     list-style: none;
 }
 
 .intro__numbers {
     font-weight: 400;
+}
+
+/* ---------------------------------------------------------------- */
+/*  1280 +  */
+/* ---------------------------------------------------------------- */
+
+@media all and (min-width:1280px) {
+    .intro {
+        max-width: 690px;
+        margin-top: 92px;
+        margin-left: 148px;
+    }
+
+    .intro__title {
+        width: 100%;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 58px;
+    }
+
+    .intro__text {
+        width: 100%;
+    }
+}
+
+/* ---------------------------------------------------------------- */
+/*  1024-1279  */
+/* ---------------------------------------------------------------- */
+
+@media all and (min-width:1024px) and (max-width:1279px) {
+    .intro {
+        max-width: 690px;
+        margin-top: 92px;
+        margin-left: 48px;
+    }
+
+    .intro__title {
+        width: 100%;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 58px;
+    }
+
+    .intro__text {
+        width: 100%;
+    }
+}
+
+/* ---------------------------------------------------------------- */
+/*  768-1023  */
+/* ---------------------------------------------------------------- */
+
+@media all and (min-width:768px) and (max-width:1023px) {
+    .intro {
+        max-width: 720px;
+        margin-top: 88px;
+        margin-left: 24px;
+    }
+
+    .intro__title {
+        width: 100%;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 58px;
+    }
+
+    .intro__text {
+        width: 100%;
+    }
+}
+
+/* ---------------------------------------------------------------- */
+/* - 320-767  */
+/* ---------------------------------------------------------------- */
+
+@media all and (max-width:767px) {
+    .intro {
+        max-width: 288px;
+        margin-top: 64px;
+        margin-left: 16px;
+    }
+
+    .intro__title {
+        width: 100%;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .intro__text {
+        width: 100%;
+    }
 }

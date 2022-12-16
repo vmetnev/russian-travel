@@ -1,10 +1,34 @@
-@media screen and (min-width:1280px) {
+/* ---------------------------------------------------------------- */
+/*  ALL  */
+/* ---------------------------------------------------------------- */
+.photo-grid {
 
+    margin: 0;
+    padding: 0;
+
+    margin: 0 auto;
+
+    outline: 1px solid red;
+    display: grid;
+
+}
+
+.photo-grid__item {
+    margin: 0;
+    padding: 0;
+    outline: 1px solid red;
+}
+
+/* ---------------------------------------------------------------- */
+/*  1280 +  */
+/* ---------------------------------------------------------------- */
+
+@media all and (min-width:1280px) {
     .photo-grid {
+        margin-top: 92px;
         max-width: 1184px;
-        margin: 0 auto;
-        outline: 1px solid red;
-        display: grid;
+
+
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 16px;
@@ -13,5 +37,67 @@
     .photo-grid__item {
         width: 284px;
         height: 213px;
+    }
+}
+
+/* ---------------------------------------------------------------- */
+/*  1024-1279  */
+/* ---------------------------------------------------------------- */
+
+@media all and (min-width:1024px) and (max-width:1279px) {
+    .photo-grid {
+        margin-top: 92px;
+        max-width: 928px;
+
+
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 14px;
+    }
+
+    .photo-grid__item {
+        width: 300px;
+        height: 225px;
+    }
+}
+
+/* ---------------------------------------------------------------- */
+/*  768-1023  */
+/* ---------------------------------------------------------------- */
+
+@media all and (min-width:768px) and (max-width:1023px) {
+    .photo-grid {
+        margin-top: 88px;
+        max-width: 720px;
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 16px;
+    }
+
+    .photo-grid__item {
+        width: 352px;
+        height: 264px;
+    }
+}
+
+/* ---------------------------------------------------------------- */
+/* - 320-767  */
+/* ---------------------------------------------------------------- */
+
+@media all and (max-width:767px) {
+    .photo-grid {
+
+        margin-top: 64px;
+        max-width: 288px;
+
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        gap: 12px;
+    }
+
+    .photo-grid__item {
+        width: 288px;
+        height: 216px;
     }
 }
