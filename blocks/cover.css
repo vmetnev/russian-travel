@@ -3,6 +3,8 @@
 /* ---------------------------------------------------------------- */
 
 .cover {
+    padding: 0;
+    box-sizing: border-box;
     margin: 0 auto;
     outline: 1px solid red;
     position: relative;
@@ -33,7 +35,6 @@
     z-index: 1;
 }
 
-
 .cover__overlay {
     outline: 1px solid red;
     position: absolute;
@@ -48,8 +49,6 @@
 
 .cover__background {
     margin: 0;
-
-
 }
 
 /* ---------------------------------------------------------------- */
@@ -60,7 +59,9 @@
 
     .cover {
         width: 1184px;
+        margin: 0 auto;
         margin-top: 92px;
+
     }
 
     .cover__title {
