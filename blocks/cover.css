@@ -100,7 +100,7 @@
 /*  1024-1279  */
 /* ---------------------------------------------------------------- */
 
-@media all and (min-width:1024px) and (max-width:1279px) {
+@media all and (min-width:1024px) and (max-width:1279.99px) {
 
     .cover {
         width: 1024px;
@@ -145,7 +145,7 @@
 /*  768-1023  */
 /* ---------------------------------------------------------------- */
 
-@media all and (min-width:768px) and (max-width:1023px) {
+@media all and (min-width:768px) and (max-width:1023.99px) {
     .cover {
         width: 768px;
         margin-top: 90px;
@@ -188,7 +188,7 @@
 /* - 320-767  */
 /* ---------------------------------------------------------------- */
 
-@media all and (max-width:767px) {
+@media all and (max-width:767.99px) {
     .cover {
         width: 320px;
         margin-top: 66px;

@@ -1,60 +1,67 @@
 /* ---------------------------------------------------------------- */
 /*  ALL  */
 /* ---------------------------------------------------------------- */
+*body {
+
+    overflow-y: hidden;
+}
 
 .page {
     margin: 0 auto;
-
     background-color: #2A2C2F;
     color: #FFFFFF;
     font-family: 'Inter';
-
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-
     transition: all 0.5s ease;
-
     outline: 1px solid red;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 /* ---------------------------------------------------------------- */
 /*  1280 +  */
 /* ---------------------------------------------------------------- */
-@media all and (min-width:1280px) {
+@media screen and (min-width:1280px) {
     .page {
+        min-width: 1260px;
         max-width: 1280px;
-
     }
 }
+
 
 /* ---------------------------------------------------------------- */
 /*  1024-1279  */
 /* ---------------------------------------------------------------- */
-@media all and (min-width:1024px) and (max-width:1279px) {
+@media screen and (min-width:1024px) and (max-width:1279.99px) {
     .page {
-        max-width: 1024px;
+        min-width: 1004px;
+        max-width: 1279px;
     }
 }
+
 
 /* ---------------------------------------------------------------- */
 /*  768-1023  */
 /* ---------------------------------------------------------------- */
-@media all and (min-width:768px) and (max-width:1023px) {
+@media screen and (min-width:768px) and (max-width:1023.99px) {
     .page {
-        max-width: 768px;
+        min-width: 748px;
+        max-width: 1023px;
     }
 }
 
 /* ---------------------------------------------------------------- */
 /* - 320-767  */
 /* ---------------------------------------------------------------- */
-@media all and (max-width:767px) {
+@media screen and (max-width:767.99px) {
     .page {
-        max-width: 320px;
+        min-width: 300px;
+        max-width: 767px;
     }
 }
