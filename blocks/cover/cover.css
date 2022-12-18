@@ -1,0 +1,38 @@
+.cover {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media all and (min-width:1280px) {
+    .cover {
+        width: 1184px;
+        margin-top: 92px;
+    }
+}
+
+@media all and (min-width:1024px) and (max-width:1279.99px) {
+    .cover {
+        margin: 0 auto;
+        width: calc(1024px + 160 * ((100vw - 1024px)/256));
+        margin-top: 92px;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1023.99px) {
+    .cover {
+        margin: 0 auto;
+        width: calc(768px + 256 * ((100vw - 768px)/256));
+        margin-top: 90px;
+    }
+}
+
+@media all and (max-width:767.99px) {
+    .cover {
+        margin: 0 auto;
+        width: calc(320px + 448 * ((100vw - 320px)/448));
+        min-width: 320px;
+        margin-top: calc(66px + 24 * ((100vw - 320px)/448));
+    }
+}

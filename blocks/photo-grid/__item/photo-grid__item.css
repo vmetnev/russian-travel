@@ -1,0 +1,36 @@
+/* ---------------------------------------------------------------- */
+/*  ALL  */
+/* ---------------------------------------------------------------- */
+
+.photo-grid__item {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:1280px) {
+    .photo-grid__item {
+        width: 284px;
+        height: 213px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279.99px) {
+    .photo-grid__item {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023.99px) {
+    .photo-grid__item {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:767.99px) {
+    .photo-grid__item {
+        width: 100%;
+        height: auto;
+    }
+}

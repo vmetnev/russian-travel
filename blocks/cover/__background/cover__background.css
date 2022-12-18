@@ -1,0 +1,8 @@
+.cover__background {
+    margin: 0;
+    grid-area: train;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    grid-row: 1/2;
+}

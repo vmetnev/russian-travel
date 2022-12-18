@@ -1,0 +1,35 @@
+.lead {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width:1280px) {
+    .lead {
+        max-width: 984px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279.99px) {
+    .lead {
+        max-width: 983px;
+        min-width: 928px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023.99px) {
+    .lead {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767.99px) {
+    .lead {
+        width: 100%;
+    }
+}

@@ -3,7 +3,6 @@
 /* ---------------------------------------------------------------- */
 
 .page {
-    margin: 0 auto;
     background-color: #2A2C2F;
     color: #FFFFFF;
     font-family: 'Inter';
@@ -13,29 +12,20 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    overflow-y: hidden;
+    overflow-x: hidden;
     transition: all 0.5s ease;
-    outline: 1px solid red;
+    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-/* ---------------------------------------------------------------- */
-/*  1280 +  */
-/* ---------------------------------------------------------------- */
 @media screen and (min-width:1280px) {
     .page {
         width: 1280px;
-
-
     }
 }
 
-
-/* ---------------------------------------------------------------- */
-/*  1024-1279  */
-/* ---------------------------------------------------------------- */
 @media screen and (min-width:1024px) and (max-width:1279.99px) {
     .page {
         min-width: 1004px;
@@ -43,10 +33,6 @@
     }
 }
 
-
-/* ---------------------------------------------------------------- */
-/*  768-1023  */
-/* ---------------------------------------------------------------- */
 @media screen and (min-width:768px) and (max-width:1023.99px) {
     .page {
         min-width: 748px;
@@ -54,15 +40,9 @@
     }
 }
 
-/* ---------------------------------------------------------------- */
-/* - 320-767  */
-/* ---------------------------------------------------------------- */
 @media screen and (max-width:767.99px) {
     .page {
         min-width: 320px;
         max-width: 767px;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
     }
 }

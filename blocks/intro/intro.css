@@ -1,0 +1,38 @@
+.intro {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media all and (min-width:1280px) {
+    .intro {
+        margin-top: 92px;
+        max-width: 690px;
+        margin-left: 148px;
+    }
+}
+
+@media all and (min-width:1024px) and (max-width:1279.99px) {
+    .intro {
+        margin-top: 92px;
+        max-width: 690px;
+        margin-left: calc(48px + 100 * ((100vw - 1024px)/256));
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1023.99px) {
+    .intro {
+        margin-top: 88px;
+        max-width: 720px;
+        margin-left: calc(24px + 24 * ((100vw - 768px)/256));
+    }
+}
+
+@media all and (max-width:767.99px) {
+    .intro {
+        margin-top: 64px;
+        max-width: calc(320px + 448 * ((100vw - 320px)/448));
+        margin-left: calc(16px + 8 * ((100vw - 320px)/448));
+        margin-right: calc(16px + 8 * ((100vw - 320px)/448));
+    }
+}
