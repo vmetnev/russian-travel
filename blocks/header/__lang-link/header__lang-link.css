@@ -1,10 +1,14 @@
 .header__lang-link {
-    font-family: 'Inter';
     color: #FFFFFF;
     text-decoration: none;
     align-self: flex-end;
     font-style: normal;
     font-weight: 400;
+
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (min-width:1280px) {

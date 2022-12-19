@@ -1,6 +1,5 @@
 .place__title {
     grid-area: title;
-    font-family: 'Inter';
     color: #FFFFFF;
     margin: 0;
     font-style: normal;

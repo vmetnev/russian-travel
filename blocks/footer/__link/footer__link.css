@@ -4,10 +4,13 @@
     margin: 0;
     padding: 0;
     margin-right: 18px;
-    font-family: 'Inter';
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (min-width:1280px) {
