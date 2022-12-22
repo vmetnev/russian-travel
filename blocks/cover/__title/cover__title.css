@@ -10,6 +10,10 @@
     width: 560px;
     font-size: 72px;
     line-height: 76px;
+    margin-top: 19%;
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: center;
 }
 
 @media screen and (max-width:1023px) {
@@ -26,5 +30,12 @@
         min-width: 288px;
         font-size: calc(32px + 40 * ((100vw - 320px)/448));
         line-height: calc(35px + 41 * ((100vw - 320px)/448));
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .cover__title {
+        margin-top: 10%;
     }
 }

@@ -3,7 +3,11 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-    z-index: 4;
+
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+
 }
 
 .cover__link:hover .cover__overlay {

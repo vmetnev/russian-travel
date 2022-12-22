@@ -3,11 +3,17 @@
     font-weight: 400;
     text-align: center;
     color: #FFFFFF;
-    z-index: 1;
+
     font-size: 18px;
     line-height: 22px;
     width: 360px;
-    margin-top: 32px;
+    margin: 0 0 19% 0;
+
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: flex-end;
+    z-index: 1;
 }
 
 
@@ -17,7 +23,8 @@
         font-size: 18px;
         line-height: 22px;
         width: 360px;
-        margin-top: 32px;
+        margin: 0 0 19% 0;
+
     }
 }
 
@@ -26,7 +33,7 @@
         font-size: 18px;
         line-height: 22px;
         width: 360px;
-        margin-top: 32px;
+        margin: 0 0 15% 0;
     }
 }
 
@@ -34,8 +41,15 @@
     .cover__subtitle {
         width: calc(288px + 72 * ((100vw - 320px)/448));
         min-width: 288px;
-        margin-top: calc(16px + 16 * ((100vw - 320px)/448));
         font-size: calc(14px + 4 * ((100vw - 320px)/448));
         line-height: calc(16px + 6 * ((100vw - 320px)/448));
+        margin: 0 0 15% 0;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .cover__subtitle {
+        margin-bottom: 10%;
     }
 }

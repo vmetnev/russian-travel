@@ -1,9 +1,0 @@
-.cover__holder {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: fitcontent() fitcontent() fitcontent();
-    grid-template-areas:
-        "titles"
-        "train"
-        "overlay-opacity";
-}

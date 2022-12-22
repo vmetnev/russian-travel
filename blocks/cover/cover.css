@@ -3,7 +3,25 @@
     box-sizing: border-box;
     margin: 92px auto 0 auto;
     max-width: 1184px;
+    position: relative;
 }
+
+.cover::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #2A2C2F;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+
+}
+
+.cover:hover::before {
+    opacity: 0.8;
+}
+
 
 @media all and (max-width:1279px) {
     .cover {
