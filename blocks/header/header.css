@@ -3,10 +3,9 @@
     flex-direction: row;
     justify-content: space-between;
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 28px auto 0 auto;
     padding: 0;
-    margin-top: 28px;
-    width: 1184px;
+    max-width: 1184px;
 }
 
 @media screen and (max-width:1279px) {

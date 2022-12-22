@@ -1,14 +1,10 @@
 .footer {
-    margin: 0 auto;
+    margin: 92px auto 24px auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     max-width: 1184px;
-    margin-top: 92px;
-    margin-bottom: 24px;
 }
-
-
 
 @media all and (max-width:1279px) {
     .footer {
@@ -26,9 +22,7 @@
 @media all and (max-width:767px) {
     .footer {
         width: calc(186px + 534 * ((100% - 320px)/448));
-        margin-top: 64px;
-        margin-bottom: 24px;
-        margin-left: 16px;
+        margin: 64px 0 24px 16px;
         flex-direction: column;
         justify-content: flex-start;
         gap: 32px;

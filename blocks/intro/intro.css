@@ -1,13 +1,9 @@
 .intro {
-    margin: 0;
+    margin: 92px 0 0 calc(148px + (100% - 1280px) / 2);
     padding: 0;
     box-sizing: border-box;
-    margin-top: 92px;
     width: 690px;
-    margin-left: calc(148px + (100% - 1280px) / 2)
 }
-
-
 
 @media all and (max-width:1279px) {
     .intro {
@@ -17,19 +13,16 @@
 
 @media all and (max-width:1023px) {
     .intro {
-        margin-top: 88px;
+        margin: 88px 0 0 calc(24px + 24 * ((100% - 768px) / 256));
         width: calc(720px - 30 * ((100% - 768px) / 256));
-        margin-left: calc(24px + 24 * ((100% - 768px) / 256));
     }
 }
 
 @media all and (max-width:767px) {
     .intro {
-        margin-top: 64px;
+        margin: 64px 0 0 calc(16px + 8 * ((100% - 320px) / 448));
         width: calc(288px + 432 * (100% - 320px) /448);
-
         max-width: 100%;
-        margin-left: calc(16px + 8 * ((100% - 320px) / 448));
     }
 }
 

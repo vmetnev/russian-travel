@@ -1,12 +1,10 @@
 .lead {
     box-sizing: border-box;
-
     margin: 56px auto 0 auto;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     width: 984px;
 }
 
