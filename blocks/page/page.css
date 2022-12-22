@@ -1,47 +1,19 @@
-/* ---------------------------------------------------------------- */
-/*  ALL  */
-/* ---------------------------------------------------------------- */
-
 .page {
-    background-color: #2A2C2F;
+    font-family: 'Inter', 'Arial', sans-serif;
     color: #FFFFFF;
-    font-family: 'Inter', 'arial', sans-serif;
+    background-color: #2A2C2F;
+
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    transition: all 0.5s ease;
-    margin: 0 auto;
+
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-}
 
-@media screen and (min-width:1280px) {
-    .page {
-        max-width: 1280px;
-    }
-}
-
-@media screen and (min-width:1024px) and (max-width:1279.99px) {
-    .page {
-        min-width: 1004px;
-        max-width: 1279px;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width:1023.99px) {
-    .page {
-        min-width: 748px;
-        max-width: 1023px;
-    }
-}
-
-@media screen and (max-width:767.99px) {
-    .page {
-        min-width: 320px;
-        max-width: 767px;
-    }
+    transition: all 0.5s ease;
 }

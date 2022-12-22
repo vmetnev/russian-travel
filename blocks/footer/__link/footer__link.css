@@ -3,38 +3,19 @@
     color: white;
     margin: 0;
     padding: 0;
-    margin-right: 18px;
+
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
 }
 
 .footer__link:hover {
     opacity: 0.8;
 }
 
-@media screen and (min-width:1280px) {
-    .footer__link {
-        font-size: 16px;
-        line-height: 18px;
-    }
-}
-
-@media screen and (min-width:1024px) and (max-width:1279.99px) {
-    .footer__link {
-        font-size: 16px;
-        line-height: 18px;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width:1023.99px) {
-    .footer__link {
-        font-size: 16px;
-        line-height: 18px;
-    }
-}
-
-@media screen and (max-width:767.99px) {
+@media screen and (max-width:767px) {
     .footer__link {
         font-size: 24px;
         line-height: 24px;

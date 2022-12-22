@@ -36,3 +36,11 @@
         margin-left: 16px;
     }
 }
+
+@media screen and (width:320px) {
+    .place__url-heading {
+        width: 288px;
+        margin-left: 16px;
+        padding: 0;
+    }
+}

@@ -1,4 +1,13 @@
 .place__text {
     grid-area: text;
     margin: 0;
+    padding: 0;
+}
+
+@media screen and (width:320px) {
+    .place__text {
+        width: 288px;
+        margin-left: 0;
+        padding-left: 0;
+    }
 }

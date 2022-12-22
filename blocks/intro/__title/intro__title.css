@@ -4,31 +4,20 @@
     font-weight: 900;
     margin: 0;
     padding: 0;
+    font-size: 54px;
+    line-height: 58px;
     width: 100%;
 }
 
-@media screen and (min-width:1280px) {
+
+@media screen and (max-width:767px) {
     .intro__title {
-        font-size: 54px;
-        line-height: 58px;
+        font-size: calc(32px + 22 * ((100vw - 320px) / 448));
+        line-height: calc(35px + 23 * ((100vw - 320px) / 448))
     }
 }
 
-@media screen and (min-width:1024px) and (max-width:1279.99px) {
-    .intro__title {
-        font-size: 54px;
-        line-height: 58px;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width:1023.99px) {
-    .intro__title {
-        font-size: 54px;
-        line-height: 58px;
-    }
-}
-
-@media screen and (max-width:767.99px) {
+@media screen and (max-width:320px) {
     .intro__title {
         font-size: 32px;
         line-height: 35px;

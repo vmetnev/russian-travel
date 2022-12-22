@@ -4,3 +4,10 @@
     grid-area: url;
     align-self: end;
 }
+
+@media screen and (width:320px) {
+    .place__website {
+        width: 288px;
+        margin-left: 0;
+    }
+}

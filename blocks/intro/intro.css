@@ -2,37 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin-top: 92px;
+    width: 690px;
+    margin-left: calc(148px + (100% - 1280px) / 2)
 }
 
-@media all and (min-width:1280px) {
+
+
+@media all and (max-width:1279px) {
     .intro {
-        margin-top: 92px;
-        max-width: 690px;
-        margin-left: 148px;
+        margin-left: calc(48px + 100 * ((100% - 1024px) / 256));
     }
 }
 
-@media all and (min-width:1024px) and (max-width:1279.99px) {
-    .intro {
-        margin-top: 92px;
-        max-width: 690px;
-        margin-left: calc(48px + 100 * ((100vw - 1024px)/256));
-    }
-}
-
-@media all and (min-width:768px) and (max-width:1023.99px) {
+@media all and (max-width:1023px) {
     .intro {
         margin-top: 88px;
-        max-width: 720px;
-        margin-left: calc(24px + 24 * ((100vw - 768px)/256));
+        width: calc(720px - 30 * ((100% - 768px) / 256));
+        margin-left: calc(24px + 24 * ((100% - 768px) / 256));
     }
 }
 
-@media all and (max-width:767.99px) {
+@media all and (max-width:767px) {
     .intro {
         margin-top: 64px;
-        max-width: calc(320px + 448 * ((100vw - 320px)/448));
-        margin-left: calc(16px + 8 * ((100vw - 320px)/448));
-        margin-right: calc(16px + 8 * ((100vw - 320px)/448));
+        width: calc(288px + 432 * (100% - 320px) /448);
+
+        max-width: 100%;
+        margin-left: calc(16px + 8 * ((100% - 320px) / 448));
+    }
+}
+
+@media all and (max-width:320px) {
+    .intro {
+        margin-left: 16px;
+        padding-right: 5px;
+        width: 288px;
+        max-width: 100%;
     }
 }

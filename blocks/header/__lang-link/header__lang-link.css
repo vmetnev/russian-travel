@@ -4,6 +4,8 @@
     align-self: flex-end;
     font-style: normal;
     font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
 
 }
 
@@ -11,29 +13,8 @@
     opacity: 0.8;
 }
 
-@media screen and (min-width:1280px) {
-    .header__lang-link {
-        font-size: 24px;
-        line-height: 28px;
-    }
-}
-
-@media screen and (min-width:1024px) and (max-width:1279.99px) {
-    .header__lang-link {
-        font-size: 24px;
-        line-height: 28px;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width:1023.99px) {
-    .header__lang-link {
-        font-size: 24px;
-        line-height: 28px;
-    }
-}
-
-@media screen and (max-width:767.99px) {
-    .header__lang-link {
+@media screen and (max-width:767px) {
+    .header {
         font-size: 18px;
         line-height: 28px;
     }
