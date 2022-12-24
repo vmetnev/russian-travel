@@ -8,7 +8,7 @@
 @media screen and (max-width:1279px) {
     .places {
         width: calc(928px + 56 * ((100% - 1024px) / 256));
-        max-width: 100%;
+        min-width: 928px;
     }
 }
 
@@ -16,7 +16,7 @@
     .places {
         margin-top: 88px;
         width: calc(720px + 208 * ((100% - 768px) / 256));
-        max-width: 100%;
+        min-width: 720px;
     }
 }
 
@@ -24,15 +24,13 @@
     .places {
         margin-top: 64px;
         width: calc(320px + 400 * ((100% - 320px) / 448));
-        max-width: 100%;
+        min-width: 320px;
     }
 }
 
 @media screen and (max-width:320px) {
     .places {
-        max-width: 100%;
         margin-top: 64px;
         max-width: 320px;
-        scrollbar-width: none;
     }
 }

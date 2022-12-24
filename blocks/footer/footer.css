@@ -1,10 +1,11 @@
 .footer {
+    box-sizing: border-box;
     margin: 92px auto 24px auto;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     max-width: 1184px;
 }
+
 
 @media all and (max-width:1279px) {
     .footer {
@@ -24,15 +25,17 @@
         width: calc(186px + 534 * ((100% - 320px)/448));
         margin: 64px 0 24px 16px;
         flex-direction: column;
-        justify-content: flex-start;
-        gap: 32px;
+        align-items: flex-start;
+        justify-content: space-between;
+        min-height: 310px;
 
     }
 }
 
-
-@media all and (max-width:767px) {
+@media all and (max-width:320px) {
     .footer {
+        width: 186px;
         height: 310px;
+        outline: 1px solid red;
     }
 }

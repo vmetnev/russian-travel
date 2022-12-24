@@ -6,24 +6,19 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-}
-
-@media screen and (max-width:1023px) {
-    .footer__copyright {
-        align-self: center;
-    }
+    align-self: flex-end;
+    outline: 1px solid green;
 }
 
 @media screen and (max-width:767px) {
     .footer__copyright {
         margin: 0;
         align-self: flex-start;
-
     }
 }
 
 @media screen and (max-width:320px) {
     .footer__copyright {
-        line-height: 1.5;
+        line-height: 14px;
     }
 }

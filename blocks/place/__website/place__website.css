@@ -3,11 +3,11 @@
     padding: 0;
     grid-area: url;
     align-self: end;
+    width: 100%;
 }
 
 @media screen and (width:320px) {
     .place__website {
         width: 288px;
-        margin-left: 0;
     }
 }

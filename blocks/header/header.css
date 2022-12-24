@@ -18,14 +18,12 @@
 @media screen and (max-width:1023px) {
     .header {
         width: calc(720px + 208 * (100% - 768px) / 256);
-        max-width: 100%;
     }
 }
 
 @media screen and (max-width:767px) {
     .header {
         width: calc(288px + 432 * (100% - 320px) / 488);
-        max-width: 100%;
         margin-top: 16px;
     }
 }

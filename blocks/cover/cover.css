@@ -6,23 +6,6 @@
     position: relative;
 }
 
-.cover::before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-color: #2A2C2F;
-    position: absolute;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-
-}
-
-.cover:hover::before {
-    opacity: 0.8;
-}
-
-
 @media all and (max-width:1279px) {
     .cover {
         width: calc(1024px + 160 * ((100% - 1024px)/256));
@@ -33,7 +16,6 @@
 @media all and (max-width:1023px) {
     .cover {
         width: calc(768px + 256 * ((100% - 768px)/256));
-        max-width: 100%;
         margin-top: 90px;
     }
 }
@@ -42,7 +24,12 @@
     .cover {
         width: calc(320px + 448 * ((100% - 320px)/448));
         min-width: 320px;
-        max-width: 100%;
         margin-top: calc(66px + 24 * ((100% - 320px)/448));
+    }
+}
+
+@media all and (max-width:320px) {
+    .cover {
+        margin-top: 66px;
     }
 }
