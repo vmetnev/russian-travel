@@ -29,7 +29,6 @@
 @media all and (max-width:320px) {
     .intro {
         margin-left: 16px;
-        padding-right: 5px;
         width: 288px;
         max-width: 100%;
     }

@@ -3,7 +3,6 @@
     color: white;
     margin: 0;
     padding: 0;
-    outline: 1px solid red;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
@@ -11,8 +10,6 @@
     line-height: 18px;
     margin-right: 18px;
     display: inline-block;
-
-
 }
 
 .footer__link:hover {
@@ -24,7 +21,5 @@
         height: 24px;
         font-size: 24px;
         line-height: 24px;
-        margin: 0;
-        padding: 0;
     }
 }

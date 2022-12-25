@@ -6,8 +6,8 @@
     padding: 0;
 }
 
-.place__text .place__paragraph:nth-child(1) {
-    margin-bottom: 25px;
+.place__text .place__paragraph:nth-child(2) {
+    margin-top: 25px;
 }
 
 @media screen and (max-width:320px) {

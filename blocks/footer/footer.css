@@ -6,7 +6,6 @@
     max-width: 1184px;
 }
 
-
 @media all and (max-width:1279px) {
     .footer {
         width: calc(928px + 256 * ((100% - 1024px)/256));
@@ -36,6 +35,5 @@
     .footer {
         width: 186px;
         height: 310px;
-        outline: 1px solid red;
     }
 }
