@@ -3,13 +3,10 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 1;
-
 }
-
 
 .cover__link::before {
     content: '';
@@ -20,7 +17,6 @@
     opacity: 0.5;
     top: 0;
     left: 0;
-
 }
 
 .cover__link:hover::before {
